@@ -1,0 +1,28 @@
+
+[model]
+
+z_dim = 50
+log_sysnoise = -3
+log_obsnoise_model = 0.0
+log_concentration_periodic = 5.0
+block_step = 1
+aux_alpha = 0
+lr = 1e-3
+G_val = 1
+batch_size = 256
+take_physical_loss = True
+lr_10percent_iters = 20000
+
+[data]
+dt = 0.03
+N_data = 10240512
+obsnoise = 0.1
+train_data_seed = 10
+test_data_seed = 1100000
+n_step = 80
+m_step = 20
+n_step_test = 80
+m_step_test = 20
+
+[others]
+outdir = doublependulum/DDP_noise01_dt003/cond1
