@@ -27,3 +27,8 @@ Lorenz96, non-linear observation
 ```
 $ bash ./run_DDP_obsnoise1_dt003_cond1.sh
 ```
+
+## Acknowledgement
+
+This research work was financially supported by the Ministry of Internal Affairs and Communications of Japan with a scheme of  "Research and development of advanced technologies for a user-adaptive remote sensing data platform" (JPMI00316).
+
